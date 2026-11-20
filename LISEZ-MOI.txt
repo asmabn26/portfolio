@@ -1,0 +1,21 @@
+Portfolio d'Asma Bensassi Nour
+
+AFFICHER LE SITE
+1. Clic droit sur le zip, puis "Extraire tout". N'ouvre pas le site depuis l'interieur du zip.
+2. Ouvre le dossier extrait et double-clique sur index.html.
+   Tout le contenu est ecrit directement dans la page : aucun script n'est necessaire.
+
+AJOUTER LES VIDEOS DE DEMO
+1. Envoie chaque video sur YouTube en "Non repertoriee".
+2. Ouvre index.html avec VS Code et cherche le nom du projet.
+3. Sous ses boutons, un bloc est entre <!-- et -->. Retire ces deux signes et remplace
+   COLLE_LE_LIEN_YOUTUBE par ton lien. Le bouton vert "Voir la demo" apparait.
+   cca.mp4 = Cyber Chaos Arena, cybersentinel.mp4 = CyberSentinel, demo.rootrap.mp4 = RootRAP,
+   QuadraSec video.mp4 = QuadraSec, Enregistrement web.mp4 = AGEN.
+
+BOUTONS GITHUB
+Les boutons jaunes "GitHub" pointent vers ton profil https://github.com/asmabn26.
+Pour pointer vers un depot precis, remplace ce lien dans le bouton du projet concerne.
+
+MISE EN LIGNE SUR VERCEL
+Glisse le dossier extrait (celui qui contient index.html directement) sur vercel.com/new.
