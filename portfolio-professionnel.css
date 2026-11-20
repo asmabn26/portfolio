@@ -1,0 +1,83 @@
+/* Refonte visuelle — Asma Bensassi Nour | GitHub Pages */
+:root{--bg:#0b1220;--glass:#111f32;--ink:#f4f8ff;--muted:#a9bad0;--rose:#4f91ff;--rose2:#89b8ff;--lilac:#5ee0ce;--line:rgba(145,177,215,.18);--glow:rgba(49,112,219,.14);--mint:#58d6c5;--amber:#a6c7ff;--sky:#8ab9ff;--serif:'Inter',system-ui,sans-serif;--sans:'Inter',system-ui,sans-serif;color-scheme:dark}
+body{background:#0b1220;background-image:radial-gradient(60rem 36rem at 88% -12%,rgba(37,99,235,.13),transparent 65%),radial-gradient(45rem 32rem at -10% 28%,rgba(20,184,166,.07),transparent 65%);background-attachment:fixed;line-height:1.7}
+.wrap{max-width:1160px;padding-inline:clamp(1.2rem,4vw,2.2rem)}
+section{padding:4.2rem 0}
+h1,h2,h3,.logo,.role{font-family:var(--sans);font-style:normal;letter-spacing:-.035em}
+h2{font-size:clamp(1.85rem,4vw,2.55rem);font-weight:750;letter-spacing:-.045em;background:none;color:#f5f8ff;margin-bottom:.65rem}
+h3{font-weight:700}
+.label{text-transform:uppercase;letter-spacing:.16em;font-size:.73rem;color:#63d8c6}
+header.bar{background:rgba(9,17,30,.93);border-bottom:1px solid var(--line)}
+nav{padding:1rem 0}.logo{font-size:1.08rem;font-weight:750;text-shadow:none;letter-spacing:-.025em}
+nav ul{gap:1.1rem}nav ul a{font-size:.86rem;font-weight:550}nav ul a:hover{color:#f5f8ff;text-shadow:none}
+.hero{grid-template-columns:minmax(0,1fr) 245px;gap:3.6rem;padding:5rem 0 4rem}
+.hero h1{font-size:clamp(2.7rem,6vw,4.65rem);font-weight:800;line-height:1.07;background:none;color:#f5f8ff;animation:none;filter:none;letter-spacing:-.055em}
+.role{font-size:clamp(1.05rem,2.5vw,1.28rem);font-weight:650;color:#75d8cd;text-shadow:none;margin:1.1rem 0 1.2rem}
+.hero p{font-size:1rem;line-height:1.85}
+.btns{gap:.7rem;margin-top:1.7rem}.btn,.btn.mint,.btn.amber,.btn.sky,.btn.cv{border-radius:10px;padding:.72rem 1.05rem;font-weight:650;font-size:.85rem;box-shadow:none;background:#15263d;color:#dce9fa;border:1px solid #314864;transition:background .2s,transform .2s,border-color .2s}
+.btn.fill,.btn.cv{background:#2563eb;border-color:#2563eb;color:white;box-shadow:none}.btn:hover,.btn.fill:hover,.btn.cv:hover{background:#1d4ed8;border-color:#6b9af8;color:white;box-shadow:none;transform:translateY(-2px)}
+.connect{gap:1.3rem}.connect a,.connect a.c-git,.connect a.c-in,.connect a.c-mail{color:#8db9f9}.connect a:hover{text-shadow:none;text-decoration:underline}
+.arch{width:245px;aspect-ratio:4/5;border-radius:18px;background:#18283e;border:1px solid #34506d;box-shadow:0 18px 48px rgba(0,0,0,.24)}.arch::after{background:linear-gradient(180deg,transparent 70%,rgba(9,18,32,.14))}
+.feats{gap:1.2rem}.card,.box,.skill,.cert{background:#111e30;border:1px solid #293d56;border-radius:16px;box-shadow:none;backdrop-filter:none}.card:hover,.skill:hover,.cert:hover{transform:translateY(-3px);border-color:#4b80bc;box-shadow:0 14px 32px rgba(0,0,0,.18)}
+.card .body{padding:1.4rem;gap:.65rem}.card h3{font-size:1.25rem;line-height:1.35}.card p,.mini p{line-height:1.7}.cover.art{background:#15243a}.cover.art:hover{box-shadow:none}.feat.wide .cover{border-radius:10px}
+h3.sub{color:#b5d2ff;font-size:1.55rem}.minis{gap:1.15rem}.mini h3{font-size:1.18rem}
+.tags li{background:#192e46;border:1px solid #2d4863;color:#c5d9f1;border-radius:6px;padding:.18rem .65rem}
+.lk,.lk.rap,.lk.pres,.lk.demo,.lk.git{--k:125,176,246;color:#b6d3ff;background:#172a41;border:1px solid #355274;border-radius:7px}.lk:hover{background:#244364;box-shadow:none}
+.mi,.dot,.badge{background:#1c4d83;box-shadow:none;border-radius:12px}.dot{border-radius:50%;box-shadow:0 0 0 4px rgba(74,139,214,.12)}.job:nth-child(2) .dot,.job:nth-child(3) .dot,.job:nth-child(4) .dot{background:#1c4d83}
+.box{padding:1.5rem}.box h3{font-size:1.25rem}.org,.when{color:#7bd8c9}.meta{color:#9fc5fb}
+.skill,.cert{padding:1.5rem;border-left:1px solid #293d56}.skill h3,.cert h3{font-size:1.2rem;color:#eaf2ff}.skills .skill:nth-child(n){--sk:#74a9f6}.skill:hover,.cert:hover{box-shadow:0 12px 28px rgba(0,0,0,.16)}
+.contactbox{border-radius:20px;background:linear-gradient(135deg,#152c46,#10273a);border:1px solid #36536f;box-shadow:none;padding:3.3rem 1.5rem}
+footer{border-top:1px solid var(--line);padding-top:1.5rem}
+:focus-visible{outline:3px solid #72c8ef;outline-offset:3px}
+@media(max-width:700px){.hero{grid-template-columns:1fr;gap:2rem;padding:2.7rem 0 2rem}.arch{order:-1;width:170px;margin:0 auto}.hero h1{font-size:clamp(2.5rem,10vw,3.3rem)}nav{gap:.8rem}nav ul{gap:.8rem}nav ul a{font-size:.8rem}section{padding:3rem 0}.feats,.minis,.skills,.certs{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* v2 — cohérence des schémas SVG + finition lumineuse premium */
+:root{--rose:#60a5fa;--rose2:#a5d2ff;--lilac:#2dd4bf;--mint:#2dd4bf;--sky:#7dd3fc;--amber:#93c5fd;--glow:rgba(59,130,246,.25)}
+body{background-image:radial-gradient(ellipse 60rem 36rem at 90% 2%,rgba(59,130,246,.19),transparent 68%),radial-gradient(ellipse 48rem 35rem at 0% 37%,rgba(20,184,166,.10),transparent 70%),radial-gradient(ellipse 48rem 35rem at 65% 95%,rgba(37,99,235,.09),transparent 70%)}
+header.bar{background:rgba(9,17,30,.83);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.hero h1{background:linear-gradient(105deg,#ffffff 8%,#d6eaff 37%,#76b8ff 67%,#66e6d3 94%);background-size:180% auto;background-clip:text;-webkit-background-clip:text;color:transparent;animation:heroShimmer 9s ease-in-out infinite alternate;filter:drop-shadow(0 0 16px rgba(56,139,250,.13))}
+@keyframes heroShimmer{from{background-position:0% 50%}to{background-position:100% 50%}}
+h2{background:linear-gradient(100deg,#f5f9ff,#c4e2ff 65%,#82e6da);background-clip:text;-webkit-background-clip:text;color:transparent}
+.logo{color:#eef7ff;text-shadow:0 0 18px rgba(84,161,255,.17)}
+.arch{border:1px solid rgba(130,200,255,.46);box-shadow:0 20px 55px rgba(0,0,0,.3),0 0 34px rgba(59,130,246,.17)}
+.card,.box,.skill,.cert{background:linear-gradient(150deg,rgba(26,45,70,.94),rgba(13,26,45,.98));border-color:rgba(130,175,225,.22);box-shadow:inset 0 1px 0 rgba(255,255,255,.045),0 8px 28px rgba(0,0,0,.11)}
+.card:hover,.skill:hover,.cert:hover{border-color:rgba(107,188,255,.62);box-shadow:0 14px 36px rgba(0,0,0,.26),0 0 27px rgba(59,130,246,.16),inset 0 1px 0 rgba(255,255,255,.07)}
+.btn.fill,.btn.cv{background:linear-gradient(120deg,#2563eb,#3984f5 60%,#2c99d5);border-color:#5d9efc;box-shadow:0 5px 22px rgba(37,99,235,.22)}
+.btn.fill:hover,.btn.cv:hover{background:linear-gradient(120deg,#3275f6,#4894ff 60%,#33a8df);box-shadow:0 8px 28px rgba(37,99,235,.38),0 0 22px rgba(125,211,252,.17)}
+.btn.mint:hover,.btn.amber:hover,.btn.sky:hover{box-shadow:0 7px 20px rgba(37,99,235,.19)}
+.contactbox{background:radial-gradient(ellipse at 20% 10%,rgba(55,131,230,.2),transparent 55%),linear-gradient(135deg,#173453,#10283b);border-color:rgba(120,199,245,.36);box-shadow:0 12px 42px rgba(0,0,0,.15),0 0 34px rgba(37,99,235,.1)}
+/* Chaque famille de schémas reçoit une nuance de la même palette corporate. */
+.g-soc{--c:96,165,250;--diagram:#60a5fa}
+.g-reseau{--c:125,211,252;--diagram:#7dd3fc}
+.g-cloud{--c:129,174,247;--diagram:#81aef7}
+.g-dev{--c:82,190,223;--diagram:#52bedf}
+.g-gov{--c:45,212,191;--diagram:#2dd4bf}
+.cover.art{background:radial-gradient(ellipse at 40% 12%,rgba(var(--c),.15),transparent 65%),linear-gradient(145deg,#13263f,#0b172a 85%);border-bottom:1px solid rgba(var(--c),.25)}
+.cover.art:hover{box-shadow:inset 0 0 0 1px rgba(var(--c),.35)}
+/* Remplace les anciennes couleurs rose/violet/or à l'intérieur des schémas intégrés en SVG. */
+.cover.art svg.sch rect[fill="#2a1238"]{fill:#182d48}
+.cover.art svg.sch [stroke="#ff7eb3"],.cover.art svg.sch [stroke="#7cc4ff"],.cover.art svg.sch [stroke="#b79cff"],.cover.art svg.sch [stroke="#fbbf24"],.cover.art svg.sch [stroke="#5eead4"]{stroke:var(--diagram)}
+.cover.art svg.sch [fill="#ff7eb3"],.cover.art svg.sch [fill="#7cc4ff"],.cover.art svg.sch [fill="#b79cff"],.cover.art svg.sch [fill="#fbbf24"],.cover.art svg.sch [fill="#5eead4"]{fill:var(--diagram)}
+.cover.art svg.sch [fill="#1a0b26"]{fill:#10243b}
+.cover.art svg.sch .nl{fill:#f1f7ff;font-weight:700}
+.cover.art svg.sch .ns{fill:#b6c9e2}
+.cover.art svg.sch .el{fill:#d4e8ff;stroke:#10243b}
+.cover.art svg.sch g>rect[fill="#2a1238"]{filter:drop-shadow(0 2px 5px rgba(0,0,0,.15))}
+/* Harmonise aussi les pointes des flèches définies hors des SVG de projets. */
+#m-soc path{fill:#60a5fa}#m-reseau path{fill:#7dd3fc}#m-cloud path{fill:#81aef7}#m-dev path{fill:#52bedf}#m-gov path{fill:#2dd4bf}
+/* Couleurs des titres de catégories initialement codées en inline. */
+.cat[style*="#ff7eb3"]{color:#83b8ff!important}
+.cat[style*="#7cc4ff"]{color:#7dd3fc!important}
+.cat[style*="#b79cff"]{color:#a4c5ff!important}
+.cat[style*="#fbbf24"]{color:#73cde9!important}
+.cat[style*="#5eead4"]{color:#5eead4!important}
+.card[style*="--k:#ff7eb3"]{--k:#60a5fa!important}
+.card[style*="--k:#b79cff"]{--k:#81aef7!important}
+.card[style*="--k:#fbbf24"]{--k:#52bedf!important}
+.tags li{background:rgba(45,92,137,.21);border-color:rgba(112,169,221,.28)}
+.bdg{color:#65e5d3;background:rgba(45,212,191,.1);border-color:rgba(45,212,191,.3)}
+.mi,.dot,.badge{background:linear-gradient(140deg,#23589d,#176a85);box-shadow:0 0 17px rgba(37,99,235,.16)}
+.skills .skill:nth-child(5n+1){--sk:#60a5fa}.skills .skill:nth-child(5n+2){--sk:#81aef7}.skills .skill:nth-child(5n+3){--sk:#2dd4bf}.skills .skill:nth-child(5n+4){--sk:#52bedf}.skills .skill:nth-child(5n){--sk:#7dd3fc}
+.skill{border-left:3px solid var(--sk,#60a5fa)}.skill h3{color:#dcecff}
+@media(prefers-reduced-motion:reduce){.hero h1{animation:none}}
