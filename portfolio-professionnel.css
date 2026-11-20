@@ -1,0 +1,33 @@
+/* Refonte visuelle — Asma Bensassi Nour | GitHub Pages */
+:root{--bg:#0b1220;--glass:#111f32;--ink:#f4f8ff;--muted:#a9bad0;--rose:#4f91ff;--rose2:#89b8ff;--lilac:#5ee0ce;--line:rgba(145,177,215,.18);--glow:rgba(49,112,219,.14);--mint:#58d6c5;--amber:#a6c7ff;--sky:#8ab9ff;--serif:'Inter',system-ui,sans-serif;--sans:'Inter',system-ui,sans-serif;color-scheme:dark}
+body{background:#0b1220;background-image:radial-gradient(60rem 36rem at 88% -12%,rgba(37,99,235,.13),transparent 65%),radial-gradient(45rem 32rem at -10% 28%,rgba(20,184,166,.07),transparent 65%);background-attachment:fixed;line-height:1.7}
+.wrap{max-width:1160px;padding-inline:clamp(1.2rem,4vw,2.2rem)}
+section{padding:4.2rem 0}
+h1,h2,h3,.logo,.role{font-family:var(--sans);font-style:normal;letter-spacing:-.035em}
+h2{font-size:clamp(1.85rem,4vw,2.55rem);font-weight:750;letter-spacing:-.045em;background:none;color:#f5f8ff;margin-bottom:.65rem}
+h3{font-weight:700}
+.label{text-transform:uppercase;letter-spacing:.16em;font-size:.73rem;color:#63d8c6}
+header.bar{background:rgba(9,17,30,.93);border-bottom:1px solid var(--line)}
+nav{padding:1rem 0}.logo{font-size:1.08rem;font-weight:750;text-shadow:none;letter-spacing:-.025em}
+nav ul{gap:1.1rem}nav ul a{font-size:.86rem;font-weight:550}nav ul a:hover{color:#f5f8ff;text-shadow:none}
+.hero{grid-template-columns:minmax(0,1fr) 245px;gap:3.6rem;padding:5rem 0 4rem}
+.hero h1{font-size:clamp(2.7rem,6vw,4.65rem);font-weight:800;line-height:1.07;background:none;color:#f5f8ff;animation:none;filter:none;letter-spacing:-.055em}
+.role{font-size:clamp(1.05rem,2.5vw,1.28rem);font-weight:650;color:#75d8cd;text-shadow:none;margin:1.1rem 0 1.2rem}
+.hero p{font-size:1rem;line-height:1.85}
+.btns{gap:.7rem;margin-top:1.7rem}.btn,.btn.mint,.btn.amber,.btn.sky,.btn.cv{border-radius:10px;padding:.72rem 1.05rem;font-weight:650;font-size:.85rem;box-shadow:none;background:#15263d;color:#dce9fa;border:1px solid #314864;transition:background .2s,transform .2s,border-color .2s}
+.btn.fill,.btn.cv{background:#2563eb;border-color:#2563eb;color:white;box-shadow:none}.btn:hover,.btn.fill:hover,.btn.cv:hover{background:#1d4ed8;border-color:#6b9af8;color:white;box-shadow:none;transform:translateY(-2px)}
+.connect{gap:1.3rem}.connect a,.connect a.c-git,.connect a.c-in,.connect a.c-mail{color:#8db9f9}.connect a:hover{text-shadow:none;text-decoration:underline}
+.arch{width:245px;aspect-ratio:4/5;border-radius:18px;background:#18283e;border:1px solid #34506d;box-shadow:0 18px 48px rgba(0,0,0,.24)}.arch::after{background:linear-gradient(180deg,transparent 70%,rgba(9,18,32,.14))}
+.feats{gap:1.2rem}.card,.box,.skill,.cert{background:#111e30;border:1px solid #293d56;border-radius:16px;box-shadow:none;backdrop-filter:none}.card:hover,.skill:hover,.cert:hover{transform:translateY(-3px);border-color:#4b80bc;box-shadow:0 14px 32px rgba(0,0,0,.18)}
+.card .body{padding:1.4rem;gap:.65rem}.card h3{font-size:1.25rem;line-height:1.35}.card p,.mini p{line-height:1.7}.cover.art{background:#15243a}.cover.art:hover{box-shadow:none}.feat.wide .cover{border-radius:10px}
+h3.sub{color:#b5d2ff;font-size:1.55rem}.minis{gap:1.15rem}.mini h3{font-size:1.18rem}
+.tags li{background:#192e46;border:1px solid #2d4863;color:#c5d9f1;border-radius:6px;padding:.18rem .65rem}
+.lk,.lk.rap,.lk.pres,.lk.demo,.lk.git{--k:125,176,246;color:#b6d3ff;background:#172a41;border:1px solid #355274;border-radius:7px}.lk:hover{background:#244364;box-shadow:none}
+.mi,.dot,.badge{background:#1c4d83;box-shadow:none;border-radius:12px}.dot{border-radius:50%;box-shadow:0 0 0 4px rgba(74,139,214,.12)}.job:nth-child(2) .dot,.job:nth-child(3) .dot,.job:nth-child(4) .dot{background:#1c4d83}
+.box{padding:1.5rem}.box h3{font-size:1.25rem}.org,.when{color:#7bd8c9}.meta{color:#9fc5fb}
+.skill,.cert{padding:1.5rem;border-left:1px solid #293d56}.skill h3,.cert h3{font-size:1.2rem;color:#eaf2ff}.skills .skill:nth-child(n){--sk:#74a9f6}.skill:hover,.cert:hover{box-shadow:0 12px 28px rgba(0,0,0,.16)}
+.contactbox{border-radius:20px;background:linear-gradient(135deg,#152c46,#10273a);border:1px solid #36536f;box-shadow:none;padding:3.3rem 1.5rem}
+footer{border-top:1px solid var(--line);padding-top:1.5rem}
+:focus-visible{outline:3px solid #72c8ef;outline-offset:3px}
+@media(max-width:700px){.hero{grid-template-columns:1fr;gap:2rem;padding:2.7rem 0 2rem}.arch{order:-1;width:170px;margin:0 auto}.hero h1{font-size:clamp(2.5rem,10vw,3.3rem)}nav{gap:.8rem}nav ul{gap:.8rem}nav ul a{font-size:.8rem}section{padding:3rem 0}.feats,.minis,.skills,.certs{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
